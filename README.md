@@ -1,12 +1,13 @@
 
 # Minimal install, configure and unseal a Vault Server running on Ubuntu (generic x64 bit)
-----
+
+
 The scope of this repository is to provide the steps for install, configure and unseal a Vault server
 enerate-root-tokens-using-unseal-keys
 
-----
-
+-----
 # Which are the main tools used to accomplish this task?
+
 ----
 # Vault
 -	Website: https://www.vaultproject.io
@@ -87,7 +88,7 @@ vault operator init > /root/.vault_init.txt
 vault status
 ```
 
-8. Unseal Vault server using the keys generated at init phase
+8. Unseal Vault server using the keys generated at init phase (step 6.)
 ```shell
 for i in $(seq 3) ; do
    t_var=$(grep "Key ${i}" /root/.vault_init.txt|awk '{print $NF}')
