@@ -6,10 +6,10 @@ The scope of this repository is to provide the steps for install, configure and 
 enerate-root-tokens-using-unseal-keys
 
 -----
-# Which are the main tools used to accomplish this task?
+## Which are the main tools used to accomplish this task?
 
 ----
-# Vault
+## Vault
 -	Website: https://www.vaultproject.io
 -	Announcement list: [Google Groups](https://groups.google.com/group/hashicorp-announce)
 -	Discussion forum: [Discuss](https://discuss.hashicorp.com/c/vault)
