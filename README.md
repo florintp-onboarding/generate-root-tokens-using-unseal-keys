@@ -3,7 +3,7 @@
 
 
 The scope of this repository is to provide the steps for install, configure and unseal a Vault server
-enerate-root-tokens-using-unseal-keys
+generate-root-tokens-using-unseal-keys
 
 -----
 ## Which are the main tools used to accomplish this task?
