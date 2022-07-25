@@ -69,6 +69,10 @@ backend "raft" {
   path    = "/opt/vault/vault-data"
   node_id = "testcluster-one"
 }
+
+log_level = "trace"
+log_format = "json"
+
 EOFC
 ```
 
