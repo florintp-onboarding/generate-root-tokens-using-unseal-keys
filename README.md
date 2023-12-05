@@ -14,9 +14,9 @@ generate-root-tokens-using-unseal-keys
 -	Website: https://www.vaultproject.io
 -	Announcement list: [Google Groups](https://groups.google.com/group/hashicorp-announce)
 -	Discussion forum: [Discuss](https://discuss.hashicorp.com/c/vault)
-- Documentation: [https://www.vaultproject.io/docs/](https://www.vaultproject.io/docs/)
-- Tutorials: [HashiCorp's Learn Platform](https://learn.hashicorp.com/vault)
-- Certification Exam: [Vault Associate](https://www.hashicorp.com/certification/#hashicorp-certified-vault-associate)
+-	Documentation: [https://www.vaultproject.io/docs/](https://www.vaultproject.io/docs/)
+-	Tutorials: [HashiCorp's Learn Platform](https://learn.hashicorp.com/vault)
+-	Certification Exam: [Vault Associate](https://www.hashicorp.com/certification/#hashicorp-certified-vault-associate)
 
 <img width="300" alt="Vault Logo" src="https://github.com/hashicorp/vault/blob/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png">
 
@@ -40,7 +40,7 @@ done
 ```shell
 apt update -y && apt install wget sudo netcat telnet zip
 cd /root/kit 
-wget https://releases.hashicorp.com/vault/1.11.0/vault_1.11.0_linux_amd64.zip
+wget https://releases.hashicorp.com/vault/1.15.3/vault_1.15.3_linux_amd64.zip
 ```
 
 
